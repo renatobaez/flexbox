@@ -10,11 +10,17 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color:#1B1F21;
+	background-color: #F8F8F8;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
 }
 
 nav {
-	position: absolute;
 	min-height: 100vh;
+	background-color: #FFFFFF;
 }
 
 ul {
@@ -23,13 +29,16 @@ ul {
   padding: 0;
   flex-direction: column;
 }
+li {
+	border-bottom: 1.5px solid #BEC1BB;
+}
 
 .card {
 	display: flex;
 	flex-direction: row;
 	width: 287px;
 	min-height: 80px;
-	
+
 }
 .card-body {
 	align-self: center;
@@ -97,4 +106,29 @@ i {
 	margin-left: 30.5px;
 	border-radius: 100%;
 	border: 1.5px solid #E8EBE4;
+}
+section {
+	text-align: center;
+	align-self: center;
+	width: 100%;
+}
+section img {
+	
+	width: 257.13px;
+	height: 252px;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 53px;
+	letter-spacing: 0.005em;
+}
+h3 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0.005em;
 }
