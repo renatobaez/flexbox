@@ -30,8 +30,15 @@ ul {
   padding: 0;
   flex-direction: column;
 }
+
 li {
 	border-bottom: 1.5px solid #BEC1BB;
+}
+
+.chat:hover{
+	cursor: pointer;
+	background-color: #A491D2;
+	opacity: 0.5;
 }
 
 .card {
@@ -39,15 +46,23 @@ li {
 	flex-direction: row;
 	width: 287px;
 	min-height: 80px;
-
 }
+
 .card-body {
 	align-self: center;
 }
+
 .card-menu {
 	text-align: end;
 	align-self: center;
 	flex-grow: 1;
+}
+
+.chatstatus {
+	font-weight: 400;
+	font-size: 10px;
+	color:#828485;
+	margin-left: 15px;
 }
 
 .chattitle {
@@ -57,12 +72,7 @@ li {
 	margin-left: 15px;
 	
 }
-.chatstatus {
-	font-weight: 400;
-	font-size: 10px;
-	color:#828485;
-	margin-left: 15px;
-}
+
 .chatbody {
 	font-weight: 400;
 	font-size: 14px;
@@ -70,8 +80,16 @@ li {
 }
 
 i {
+	cursor: pointer;
 	color:#828485;
 	font-size: 19px;
+	margin-right: 17.03px;
+}
+
+i:hover {
+	cursor: pointer;
+	color: #1B1F21;
+	font-size: 25px;
 	margin-right: 17.03px;
 }
 
@@ -89,6 +107,7 @@ i {
 	font-weight: 400;
 	font-size: 16px;
 	color: #FFFFFF;
+	cursor: pointer;
 	border: 0px;
 	width: 185px;
 	height: 46px;
@@ -124,9 +143,10 @@ section {
 	width: 100%;
 }
 
-img {
+section img {
 	width: 257.13px;
 	height: 252px;
+	margin-bottom: 30px;
 }
 
 h1 {
