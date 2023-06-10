@@ -35,11 +35,6 @@ li {
 	border-bottom: 1.5px solid #BEC1BB;
 }
 
-li:hover{
-	cursor: pointer;
-	background-color: #A491D2;
-	opacity: 0.5;
-}
 
 /* CARD */
 .card {
