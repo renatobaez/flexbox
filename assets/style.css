@@ -35,18 +35,20 @@ li {
 	border-bottom: 1.5px solid #BEC1BB;
 }
 
-.chat:hover{
+li:hover{
 	cursor: pointer;
 	background-color: #A491D2;
 	opacity: 0.5;
 }
 
+/* CARD */
 .card {
 	display: flex;
 	justify-content:space-around;
 	width: 287px;
 	min-height: 80px;
 }
+
 .card-thumbnail{
 	align-self: center;
 	width: 80px;
@@ -54,15 +56,15 @@ li {
 
 .card-body {
 	align-self: center;
-	width: 180px;
-	padding-left: 10px;
+	width: 200px;
+	padding-left: 5px;
 }
 
 .card-menu {
 	display: flex;
 	align-self: center;
 }
-
+/* TEXT CARD */
 .chatstatus {
 	font-weight: 400;
 	font-size: 10px;
@@ -80,6 +82,8 @@ li {
 	font-size: 14px;
 }
 
+/* ICON MENU */
+
 i {
 	cursor: pointer;
 	color:#828485;
@@ -91,6 +95,8 @@ i:hover {
 	color: #1B1F21;
 	font-size: 25px;
 }
+
+/* BUTTON */
 
 .new-chat {
 	display: flex;
@@ -120,6 +126,8 @@ i:hover {
 	background-color: #BEC1BB;
 }
 
+/* THUMBNAIL */
+
 .tinythumbnail {
 	float: right;
 	width: 37px;
@@ -135,6 +143,8 @@ i:hover {
 	border-radius: 50%;
 	border: 1.5px solid #E8EBE4;
 }
+
+/* START SECTION */
 
 section {
 	text-align: center;
